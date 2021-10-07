@@ -1,4 +1,4 @@
-# Homework_1
+# Perceptron
 
 The Binary classifer and the Multi-class classifier are written in 2 python3 scripts named 'Binary_classifier.py' and 'Multi-class.py' respectively. 
 Programming language used: Python 3
@@ -6,8 +6,7 @@ Programming language used: Python 3
 
 ## Usage
 
-In the Binary classifier (5.1) script, questions (a)-(d) are written in each individual function, with the train and test part incorporated in each of them.
-In the function calls section do the following: 
+In the Binary classifier script, I wrote functions that implement Standard and Average perceptron with and without a passive-aggressive algorithm, and a general learning paradigm for Binary classification of the Fashion-MNIST dataset into odd and even labels. To make the function calls in the Binary_classifier.py script, do the following: 
 ```python
 train_test(X_train, Y_train, X_test, Y_test, 1, T)     #Un-comment and run script for Standard perceptron (Q5.1a&b)
 
@@ -24,7 +23,7 @@ To run the Binary classification script, in terminal use:
 python Binary_classifier.py
 ```
 
-In the Multi-class classifier (5.2) script, questions (a)-(d) are written in each individual function, with the train and test part incorporated in each of them. In the function calls section do the following: 
+Similarly, in the Multi-class classifier script, I wrote functions that implement Standard and Average perceptron with and without a passive-aggressive algorithm, and a general learning paradigm for multi-classification of the Fashion-MNIST dataset into 10 labels. To make the function calls in the Multi-class.py script, do the following: 
 ```python
 train_test(X_train, Y_train, 1, T)        #Un-comment and run script for Standard perceptron (Q5.2a&b)
 
