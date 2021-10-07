@@ -2,7 +2,7 @@
 
 The Binary classifer and the Multi-class classifier are written in 2 python3 scripts named 'Binary_classifier.py' and 'Multi-class.py' respectively. 
 Programming language used: Python 3
-
+The fashion-MNIST dataset can be downloaded here: https://github.com/zalandoresearch/fashion-mnist
 
 ## Usage
 
