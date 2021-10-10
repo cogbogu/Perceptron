@@ -1,9 +1,8 @@
 from utils import mnist_reader
 import numpy
-import torch
 import numpy as np
 from numpy import genfromtxt
-import torchvision
+
 
 #import cupy as cp
 
