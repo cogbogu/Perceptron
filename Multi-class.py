@@ -1,8 +1,6 @@
 from utils import mnist_reader
 import numpy
 import numpy as np
-from numpy import genfromtxt
-
 
 #import cupy as cp
 
